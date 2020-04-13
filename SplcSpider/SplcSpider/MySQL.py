@@ -51,6 +51,7 @@ class MySQL(object):
         self.cursor.executemany(sql, params)
 
 
+
 if __name__ == '__main__':
     mysql20 = MySQL('172.16.0.20')
     mysql20.execute_and_fetch_all("select * from ktgg.tsgkw where case_id='1011508'")

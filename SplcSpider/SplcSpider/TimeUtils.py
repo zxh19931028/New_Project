@@ -158,6 +158,7 @@ class RangeDt(object):
         else:
             raise StopIteration()
 
+
 if __name__ == '__main__':
     # print get_today()
     # print get_cur_ts_sec()
